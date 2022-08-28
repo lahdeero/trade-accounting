@@ -1,0 +1,40 @@
+body {
+  background-color: #E9DCC9;
+}
+
+.trade{
+  form{
+    display: flex;
+    flex-direction: column;
+
+    select{
+      margin: 1rem 0;
+      width: 10rem;
+      height: 2rem;
+      background-color: #FFF;
+    }
+
+    label{
+      margin: 1rem 0;
+    }
+
+    textarea{
+      margin: 1rem 0;
+      width: 20rem;
+      height: 10rem;
+    }
+
+    button{
+      background-color: #FFF;
+      margin: 1rem 0;
+      width: 10rem;
+      height: 2rem;
+    }
+  }
+
+  .trade-note{
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #000;
+  }
+}
