@@ -131,6 +131,7 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.13.8-x86_64-linux)
       racc (~> 1.4)
+    pg (1.4.3)
     public_suffix (5.0.0)
     puma (5.6.5)
       nio4r (~> 2.0)
@@ -230,6 +231,7 @@ DEPENDENCIES
   dotenv (~> 2.8)
   jbuilder
   jsbundling-rails
+  pg
   puma (~> 5.0)
   rails (~> 7.0.3, >= 7.0.3.1)
   sassc-rails
